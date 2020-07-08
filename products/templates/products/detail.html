@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <p class="image"><img src="{{product.cover.url}}"></p>
+    {{product.description}}<br/>
+   <div class="price">prix: <span class="prix">{{product.price}} $</span></div> 
+</div>
+
+{% endblock content %}
