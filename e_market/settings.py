@@ -132,3 +132,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 LOGIN_REDIRECT_URL = '/'
+STATIC_ROOT = '/home/mercijacob1/e-market-static'
